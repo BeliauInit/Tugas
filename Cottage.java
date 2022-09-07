@@ -31,7 +31,7 @@ public class Cottage {
         if (code == 10) {
             System.out.print(" >-----------------------< \nHow many people ? = ");
             people = input.nextInt();
-        } else if (code >= 10) {
+        } else if (code <=0 || code >= 10)  {
             System.out.println("\n\u001B[31mOhh no Sorry (>_<'). \n\nWe cannot continue because there is no cottage");
             System.exit(0);
         }
