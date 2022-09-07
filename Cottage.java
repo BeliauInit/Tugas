@@ -52,5 +52,6 @@ public class Cottage {
         if (Paying == 0) {
             System.out.println(" >-----------------------<\n\u001B[31mSorry we cannot accept that (>o<'). \n\nplease check your Days first !");
         } else System.out.printf(" >-----------------------< \nTotal must pay = Rp.%s", code == 10 ? Paying * people : Paying);
+
     }
 }
